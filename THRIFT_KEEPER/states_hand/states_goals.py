@@ -1,0 +1,23 @@
+from aiogram.fsm.state import State, StatesGroup
+
+class GoalStates(StatesGroup):
+    enter_name = State()
+    enter_amount = State()
+    enter_deadline = State()
+    select_goal_for_add = State()
+    enter_amount_for_goal = State()
+    select_goal_for_withdraw = State()
+    enter_withdraw_amount = State()
+    select_goal_for_delete = State()
+    confirm_delete = State()
+    select_goal_for_view = State()
+    confirm_extend = State()
+    confirm_failure = State()
+    view_completed = State()
+    extend_deadline = State()
+    new_deadline = State()
+    select_goal_to_edit = State()
+    edit_goal_choice = State()
+    edit_goal_name = State()
+    edit_goal_amount = State()
+    edit_goal_deadline = State()
