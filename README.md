@@ -13,7 +13,7 @@
 ## 📦 Установка
 
 ```bash
-git clone https://github.com/yourusername/thrift_keeper_bot.git
+git clone https://github.com/WGR074/THRIFT_KEEPER-74.git
 cd thrift_keeper_bot
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
